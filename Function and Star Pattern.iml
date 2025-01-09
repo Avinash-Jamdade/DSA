@@ -1,11 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+// Question No.:1 Enter 3 numbers from the user & make a function to print their average.
+import java.util.*;
+//public class Function {
+//    public float Averageofnumber(float num1,float num2,float num3){
+//        float average=(num1+num2+num3)/3;
+//        return average;
+//    }
+//    public static void main(String args[]){
+//        Function obj=new Function();
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter Num 1:");
+//        float num1=sc.nextFloat();
+//        System.out.println("Enter Num 2 :");
+//        float num2=sc.nextFloat();
+//        System.out.println("Enter Num 3 :");
+//        float num3=sc.nextFloat();
+//        System.out.println(obj.Averageofnumber(num1,num2,num3));
+//    }
+//}
+
+//Question No.:2 Write a function to print the sum of all odd numbers from 1 to n.
+//public class Function {
+//
+//    public int oddnumberSum(int n){
+//        int sum=0;
+//        for (int i = 0; i < n; i++) {
+//            if(i%2 !=0){
+//                sum +=i;
+//            }
+//        }
+//
+//        return sum;
+//    }
+//    public static void main(String[] args) {
+//        Function obj=new Function();
+//        System.out.println(obj.oddnumberSum(10));
+//    }
+//}
+// Question 3: Write a function which takes in 2 numbers and returns the greater of those two.
+//public class Function {
+//    public int GraterNumber(int num1,int num2){
+//        if(num1>num2){
+//            System.out.println("Maximum : " +num1);
+//        } else if(num1<num2) {
+//            System.out.println("Maximum : " +num2);
+//        }
+//        return 0;
+//    }
+//    public static void main(String[] args) {
+//        Function obj=new Function();
+//        Scanner sc=new Scanner(System.in);
+//        System.out.print("Enter the value of num1 :");
+//        int num1=sc.nextInt();
+//        System.out.print("Enter the value of num2 :");
+//        int num2=sc.nextInt();
+//        System.out.println(obj.GraterNumber(num1,num2));
+//    }
+//}
+//Question 4: Write a function that takes in the radius as input and returns the circumference of a circle.
+//public class Function {
+//    public int circumferenceofacircle(int radius){
+//        float PI=3.14F;
+//        float circumferenceofacircle1=2*PI*radius;
+//        System.out.print("circumference of a circle : " +circumferenceofacircle1);
+//        return 0;
+//    }
+//    public static void main(String[] args) {
+//        Function obj=new Function();
+//        Scanner sc=new Scanner(System.in);
+//        System.out.print("Enter the Radius :");
+//        int r=sc.nextInt();
+//        System.out.println(obj.circumferenceofacircle(r));
+//    }
+//}
+//Question 5: Write a function that takes in age as input
+// and returns if that person is eligible to vote or not.
+// A person of age > 18 is eligible to vote.
+public class Function {
+    public int eligibleToVote(int age){
+        if(age>18){
+            System.out.println("Eligible To vote ");
+        }
+        else {
+            System.out.println("Not Eligible To vote");
+        }
+        return 0;
+    }
+    public static void main(String[] args) {
+        Function obj=new Function();
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the Age :");
+        int age=sc.nextInt();
+        System.out.println(obj.eligibleToVote(age));
+    }
+}
+//Question 6: Write an infinite loop using do while condition.
